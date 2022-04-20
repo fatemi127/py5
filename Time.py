@@ -18,4 +18,4 @@ nemooneh.sub()
 nemooneh.mul()
 nemooneh.convert_to_time()
 nemooneh.convert_to_seconds()
-#هنوز کلی کار هست که انجام بشه اما وقت نبود :(
+#هنوز کلی کار هست که انجام بشه  انجام میدم
