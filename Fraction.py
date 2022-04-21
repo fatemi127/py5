@@ -22,7 +22,26 @@ class fraction:
         b=  self.f_denominator*self.s_numerator
         print ("Javabe zarbe do kadr hast:",a,"/",b)
     def show (self):
-        pass
+        def show(self):
+        while(True):
+            if self.numerator % 2 == 0 and self.denominator % 2 == 0:
+                self.numerator = self.numerator/2
+                self.denominator =   self.denominator/ 2
+
+            elif self.numerator % 3 == 0 and self.denominator % 3 == 0:
+                self.numerator = self.numerator/ 3
+                self.denominator =   self.denominator/  3
+
+            elif self.numerator % 5 == 0 and self.denominator % 5 == 0:
+                self.numerator = self.numerator/ 5
+                self.denominator =   self.denominator/  5
+
+            elif self.numerator % 7 == 0 and self.denominator % 7 == 0:
+                self.numerator = self.numerator/ 7
+                self.denominator =   self.denominator/  7
+            
+            else:
+                break
 
 nemooneh = fraction (4,2,3,2)#صورت و مخرج اول، صورت و مخرج دوم
 nemooneh.add()
